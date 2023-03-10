@@ -1,5 +1,7 @@
 ﻿using System;
 
+
+
 namespace PerguntaValores
 {
     class Program
@@ -15,15 +17,19 @@ namespace PerguntaValores
             float r =float.Parse(Console.ReadLine());
             
             //create the variable Pi
-            double Pi = 3.1415926;
+            //double Pi = 3.1415926;
 
             //formula to calculate V
-            double V = Pi*r*r*h;
+            //add Math.PI
+            double V = Math.PI*r*r*h;
             Console.WriteLine(V);
             //formula to calculate Sa
-            double S = 2*Pi*r*(h + r);
+            double S = 2*Math.PI*r*(h + r);
             Console.WriteLine(S);
 
+            //add math,pow
+            double t = Math.Pow(r,2);
+            Console.WriteLine(t);
  
 
 
