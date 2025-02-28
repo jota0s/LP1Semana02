@@ -31,6 +31,9 @@ namespace ValoresEspeciais
             double d = double.NaN;
 
 
+            float f3, f4;
+
+            f3 = f4 = 10000.0f;
 
 
           
@@ -60,6 +63,12 @@ namespace ValoresEspeciais
             Console.WriteLine(d);
 
             Console.WriteLine(ui + 1);
+
+            Console.WriteLine(2 * f);
+            Console.WriteLine(f + 1);
+            
+            Console.WriteLine(f3 == f4 + 0.0001f);
+
 
         }
     }
