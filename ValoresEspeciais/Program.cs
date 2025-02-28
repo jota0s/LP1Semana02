@@ -59,6 +59,8 @@ namespace ValoresEspeciais
             Console.WriteLine(finf1);
             Console.WriteLine(d);
 
+            Console.WriteLine(ui + 1);
+
         }
     }
 }
