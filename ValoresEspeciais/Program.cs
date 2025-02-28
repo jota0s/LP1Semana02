@@ -25,7 +25,17 @@ namespace ValoresEspeciais
             float f = float.MaxValue;
             float f1 = float.MinValue;
 
-             Console.WriteLine(sb);
+
+            float finf = float.PositiveInfinity;
+            float finf1 = float.NegativeInfinity;
+            double d = double.NaN;
+
+
+
+
+          
+
+            Console.WriteLine(sb);
             Console.WriteLine(sb1);
             Console.WriteLine(db);
             Console.WriteLine(db1);
@@ -44,6 +54,10 @@ namespace ValoresEspeciais
             Console.WriteLine(f);
             Console.WriteLine(f1);
 
+
+            Console.WriteLine(finf);
+            Console.WriteLine(finf1);
+            Console.WriteLine(d);
 
         }
     }
